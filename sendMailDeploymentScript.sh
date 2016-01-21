@@ -1,3 +1,4 @@
+{
 #!/bin/bash
 set -e
 function getFQDNDetails(){
@@ -57,4 +58,5 @@ function main(){
 	reloadSendMailService
 }
 main
+}
 
