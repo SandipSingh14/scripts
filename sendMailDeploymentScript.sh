@@ -1,5 +1,5 @@
-#!/bin/bash
 {
+#!/bin/bash
 set -e
 function getFQDNDetails(){
 	hostname -f|egrep *.com >/dev/null 2>&1
