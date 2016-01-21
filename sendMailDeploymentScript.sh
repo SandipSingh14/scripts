@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 function getFQDNDetails(){
 	hostname -f|egrep *.com >/dev/null 2>&1
 	if [ $? == "0" ]; then
@@ -56,3 +57,4 @@ function main(){
 	reloadSendMailService
 }
 main
+
